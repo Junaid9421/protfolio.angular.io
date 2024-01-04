@@ -1,0 +1,15 @@
+.content-wrapper {
+    // height: 100%;
+    background-color: aquamarine;
+    & .content-box {
+
+        display: 100vh;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & .content-text {}
+}

@@ -1,0 +1,68 @@
+.header {
+    position: relative;
+    display: block;
+    height: 4.5rem;
+    background-color: #908890;
+
+    box-sizing: content-box;
+    padding-left: 2rem;
+
+    &:hover {
+        background-color: #333333;
+    }
+
+    & .navbar {
+        margin-left: 1.2rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        position: absolute;
+        inset: 0;
+
+        & .logo {
+            margin-right: 4.5rem;
+
+            &-text {
+                color: aliceblue;
+                font-style: oblique;
+                font-size: 2.2rem;
+                font-weight: 700;
+
+                &:hover {
+                    cursor: pointer;
+                    color: yellowgreen;
+                }
+            }
+        }
+
+        & .navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            list-style: none;
+
+            &-item {
+                margin-left: 1.2rem;
+            }
+
+            &-link {
+                text-transform: capitalize;
+                letter-spacing: 0.1rem;
+                color: aliceblue;
+                text-decoration: none;
+                font-style: oblique;
+                font-size: 1.5rem;
+                font-weight: bold;
+                padding: 1.2rem 2rem;
+
+                &:hover {
+                    color: yellowgreen;
+                }
+            }
+        }
+    }
+}
